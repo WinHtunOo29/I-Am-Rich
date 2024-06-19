@@ -6,11 +6,15 @@ void main() {
       home: Scaffold(
         backgroundColor: Colors.blueGrey,
         appBar: AppBar(
-          centerTitle: true,
-          title: const Text("I Am Rich", style: TextStyle(
-              color: Colors.white
+          title: const Text('I Am Rich', style: TextStyle(
+            color: Colors.white
           ),),
           backgroundColor: Colors.blueGrey[900],
+        ),
+        body: const Center(
+          child: Image(
+            image: AssetImage('images/diamond.png'),
+          ),
         ),
       ),
     ),
